@@ -1,0 +1,54 @@
+body {
+  background-color: #0f0f1b;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  max-width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+p{
+    text-align: justify;
+    text-justify: auto;
+}
+h1{
+    margin-top: 0%;
+    text-align: center;
+}
+
+#moon{
+    width: 200px;
+    height: 200px;
+}
+#moon_section{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom:180px;
+}
+
+#mountain{
+width: 100%;
+height: 700px;
+position: relative;
+margin-bottom: 0px;
+
+}
+.content_main{
+    position: relative;
+    z-index: 90;    
+}
+
+.content_details{
+    background: #0f0f1b;
+    position: relative;
+    margin-top: -10px;
+}
+
+#about_section{
+margin:20%;
+margin-top: 0%;
+font-size: 1.2em;
+position: relative;
+
+}
